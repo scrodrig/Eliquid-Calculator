@@ -2,7 +2,6 @@ import Cocoa
 
 class ViewController: NSViewController {
     
-    
     @IBOutlet weak var batchAmmount: NSTextField!
     
     @IBOutlet weak var nicotineStrengh: NSTextField!
@@ -74,14 +73,17 @@ class ViewController: NSViewController {
     @IBOutlet weak var sumPercentageFlavored: NSTextField!
     
     
-    @IBAction func flavorOneDidChange(_ sender: Any) {
+    @IBAction func flavorOneDidChange(_ sender: NSTextField) {
         
-        if(flavorOne.stringValue != "" && flavorPrecentageOne.stringValue != ""){
-            print("textField: \(flavorOne.stringValue)")
-            print("percentage: \(flavorPrecentageOne.floatValue)")
-            flavorTwo.isEnabled = true
-            flavorPercentageTwo.isEnabled = true
-            flavorPgContentrationTwo.isEnabled = true
+        print(";sandkjas: \(sender.tag)")
+        
+        switch sender.tag {
+            case TextInputChangeTag.flavorOne.rawValue:
+                print("do something when first button is tapped")
+            case TextInputChangeTag.flavorTwo.rawValue:
+                print("do something when second button is tapped")
+            default:
+                print("default")
         }
     }
     

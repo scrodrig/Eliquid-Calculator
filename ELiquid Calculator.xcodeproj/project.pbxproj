@@ -13,6 +13,7 @@
 		31004DAD218FBB000004101A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31004DAB218FBB000004101A /* Main.storyboard */; };
 		31004DB9218FBB010004101A /* ELiquid_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31004DB8218FBB010004101A /* ELiquid_CalculatorTests.swift */; };
 		31004DC4218FBB010004101A /* ELiquid_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31004DC3218FBB010004101A /* ELiquid_CalculatorUITests.swift */; };
+		31746D9B21900BE400FF685F /* ButtonsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31746D9A21900BE400FF685F /* ButtonsEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		31004DBF218FBB010004101A /* ELiquid CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ELiquid CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31004DC3218FBB010004101A /* ELiquid_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELiquid_CalculatorUITests.swift; sourceTree = "<group>"; };
 		31004DC5218FBB010004101A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31746D9A21900BE400FF685F /* ButtonsEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				31004DAB218FBB000004101A /* Main.storyboard */,
 				31004DAE218FBB000004101A /* Info.plist */,
 				31004DAF218FBB000004101A /* ELiquid_Calculator.entitlements */,
+				31746D9A21900BE400FF685F /* ButtonsEnum.swift */,
 			);
 			path = "ELiquid Calculator";
 			sourceTree = "<group>";
@@ -186,6 +189,10 @@
 		31004D9A218FBAFF0004101A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					f1,
+					p1,
+				);
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Schubert Rodriguez";
@@ -256,6 +263,7 @@
 			files = (
 				31004DA8218FBAFF0004101A /* ViewController.swift in Sources */,
 				31004DA6218FBAFF0004101A /* AppDelegate.swift in Sources */,
+				31746D9B21900BE400FF685F /* ButtonsEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

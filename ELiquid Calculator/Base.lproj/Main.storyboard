@@ -874,7 +874,7 @@
                                                                 <action selector="clearFlavors:" target="XfG-lQ-9wD" id="zAD-FR-OPk"/>
                                                             </connections>
                                                         </button>
-                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z8a-U8-FcL">
+                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" tag="1" translatesAutoresizingMaskIntoConstraints="NO" id="z8a-U8-FcL">
                                                             <rect key="frame" x="12" y="448" width="116" height="22"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" placeholderString="Flavor 1" bezelStyle="round" id="zry-rA-x1U">
@@ -886,7 +886,7 @@
                                                                 <action selector="flavorOneDidChange:" target="XfG-lQ-9wD" id="xlW-Ym-UfV"/>
                                                             </connections>
                                                         </textField>
-                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ojf-si-Cbz">
+                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" tag="3" translatesAutoresizingMaskIntoConstraints="NO" id="ojf-si-Cbz">
                                                             <rect key="frame" x="12" y="397" width="116" height="22"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" enabled="NO" sendsActionOnEndEditing="YES" borderStyle="bezel" placeholderString="Flavor 2" bezelStyle="round" id="G2h-ab-160">
@@ -894,6 +894,9 @@
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                             </textFieldCell>
+                                                            <connections>
+                                                                <action selector="flavorOneDidChange:" target="XfG-lQ-9wD" id="Y9C-e1-5eh"/>
+                                                            </connections>
                                                         </textField>
                                                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uYb-6j-Kdv">
                                                             <rect key="frame" x="44" y="478" width="53" height="19"/>
@@ -913,7 +916,7 @@
                                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                             </textFieldCell>
                                                         </textField>
-                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iGd-ba-4YP">
+                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="iGd-ba-4YP">
                                                             <rect key="frame" x="146" y="448" width="39" height="22"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="right" placeholderString="0" bezelStyle="round" id="xZg-WS-dLM">
@@ -925,16 +928,19 @@
                                                                 <action selector="flavorOneDidChange:" target="XfG-lQ-9wD" id="RZE-wz-zSx"/>
                                                             </connections>
                                                         </textField>
-                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rr3-Bj-5IZ">
+                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" tag="4" translatesAutoresizingMaskIntoConstraints="NO" id="rr3-Bj-5IZ">
                                                             <rect key="frame" x="146" y="397" width="39" height="22"/>
                                                             <autoresizingMask key="autoresizingMask"/>
-                                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" enabled="NO" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="right" placeholderString="0" bezelStyle="round" id="Nzf-0b-IiB">
+                                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" enabled="NO" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="right" tag="4" placeholderString="0" bezelStyle="round" id="Nzf-0b-IiB">
                                                                 <font key="font" metaFont="system"/>
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                             </textFieldCell>
+                                                            <connections>
+                                                                <action selector="flavorOneDidChange:" target="XfG-lQ-9wD" id="nIG-gC-BPG"/>
+                                                            </connections>
                                                         </textField>
-                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QAK-1P-b83">
+                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" tag="5" translatesAutoresizingMaskIntoConstraints="NO" id="QAK-1P-b83">
                                                             <rect key="frame" x="12" y="340" width="116" height="22"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" enabled="NO" sendsActionOnEndEditing="YES" borderStyle="bezel" placeholderString="Flavor 3" bezelStyle="round" id="Bnc-gi-hWD">
@@ -942,17 +948,23 @@
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                             </textFieldCell>
+                                                            <connections>
+                                                                <action selector="flavorOneDidChange:" target="XfG-lQ-9wD" id="dgc-YS-QFe"/>
+                                                            </connections>
                                                         </textField>
                                                         <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KBY-IF-TCK">
                                                             <rect key="frame" x="146" y="340" width="39" height="22"/>
                                                             <autoresizingMask key="autoresizingMask"/>
-                                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" enabled="NO" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="right" placeholderString="0" bezelStyle="round" id="L9u-bW-oGy">
+                                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" enabled="NO" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="right" tag="6" placeholderString="0" bezelStyle="round" id="L9u-bW-oGy">
                                                                 <font key="font" metaFont="system"/>
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                             </textFieldCell>
+                                                            <connections>
+                                                                <action selector="flavorOneDidChange:" target="XfG-lQ-9wD" id="G5g-M1-plh"/>
+                                                            </connections>
                                                         </textField>
-                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VSX-Cf-xvJ">
+                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" tag="7" translatesAutoresizingMaskIntoConstraints="NO" id="VSX-Cf-xvJ">
                                                             <rect key="frame" x="12" y="288" width="116" height="22"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" enabled="NO" sendsActionOnEndEditing="YES" borderStyle="bezel" placeholderString="Flavor 4" bezelStyle="round" id="EbL-Ap-r1m">
@@ -960,8 +972,11 @@
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                             </textFieldCell>
+                                                            <connections>
+                                                                <action selector="flavorOneDidChange:" target="XfG-lQ-9wD" id="ZoV-46-scf"/>
+                                                            </connections>
                                                         </textField>
-                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r0k-Aw-2xl">
+                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" tag="8" translatesAutoresizingMaskIntoConstraints="NO" id="r0k-Aw-2xl">
                                                             <rect key="frame" x="146" y="288" width="39" height="22"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" enabled="NO" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="right" placeholderString="0" bezelStyle="round" id="wC1-Co-ET5">
@@ -969,8 +984,11 @@
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                             </textFieldCell>
+                                                            <connections>
+                                                                <action selector="flavorOneDidChange:" target="XfG-lQ-9wD" id="lSn-iu-QTt"/>
+                                                            </connections>
                                                         </textField>
-                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gaV-4e-5tM">
+                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" tag="9" translatesAutoresizingMaskIntoConstraints="NO" id="gaV-4e-5tM">
                                                             <rect key="frame" x="12" y="233" width="116" height="22"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" enabled="NO" sendsActionOnEndEditing="YES" borderStyle="bezel" placeholderString="Flavor 5" bezelStyle="round" id="GUB-ER-IZi">
@@ -978,8 +996,11 @@
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                             </textFieldCell>
+                                                            <connections>
+                                                                <action selector="flavorOneDidChange:" target="XfG-lQ-9wD" id="SVI-ut-yZq"/>
+                                                            </connections>
                                                         </textField>
-                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tIF-bi-O5Y">
+                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" tag="10" translatesAutoresizingMaskIntoConstraints="NO" id="tIF-bi-O5Y">
                                                             <rect key="frame" x="146" y="233" width="39" height="22"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" enabled="NO" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="right" placeholderString="0" bezelStyle="round" id="Z6d-TZ-90h">
@@ -987,8 +1008,11 @@
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                             </textFieldCell>
+                                                            <connections>
+                                                                <action selector="flavorOneDidChange:" target="XfG-lQ-9wD" id="twa-6a-14Q"/>
+                                                            </connections>
                                                         </textField>
-                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eYd-kO-MwB">
+                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" tag="11" translatesAutoresizingMaskIntoConstraints="NO" id="eYd-kO-MwB">
                                                             <rect key="frame" x="12" y="181" width="116" height="22"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" enabled="NO" sendsActionOnEndEditing="YES" borderStyle="bezel" placeholderString="Flavor 6" bezelStyle="round" id="FGl-bH-4Pd">
@@ -996,8 +1020,11 @@
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                             </textFieldCell>
+                                                            <connections>
+                                                                <action selector="flavorOneDidChange:" target="XfG-lQ-9wD" id="lWO-EF-iHy"/>
+                                                            </connections>
                                                         </textField>
-                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dG6-XX-Igj">
+                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" tag="12" translatesAutoresizingMaskIntoConstraints="NO" id="dG6-XX-Igj">
                                                             <rect key="frame" x="146" y="181" width="39" height="22"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" enabled="NO" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="right" placeholderString="0" bezelStyle="round" id="k0w-AX-Dif">
@@ -1005,8 +1032,11 @@
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                             </textFieldCell>
+                                                            <connections>
+                                                                <action selector="flavorOneDidChange:" target="XfG-lQ-9wD" id="cbw-F6-Sc9"/>
+                                                            </connections>
                                                         </textField>
-                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bwJ-ql-kLV">
+                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" tag="13" translatesAutoresizingMaskIntoConstraints="NO" id="bwJ-ql-kLV">
                                                             <rect key="frame" x="12" y="129" width="116" height="22"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" enabled="NO" sendsActionOnEndEditing="YES" borderStyle="bezel" placeholderString="Flavor 7" bezelStyle="round" id="Vuj-rb-Xe6">
@@ -1014,8 +1044,11 @@
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                             </textFieldCell>
+                                                            <connections>
+                                                                <action selector="flavorOneDidChange:" target="XfG-lQ-9wD" id="xko-mb-zg7"/>
+                                                            </connections>
                                                         </textField>
-                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dyw-Xt-m4N">
+                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" tag="14" translatesAutoresizingMaskIntoConstraints="NO" id="dyw-Xt-m4N">
                                                             <rect key="frame" x="146" y="129" width="39" height="22"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" enabled="NO" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="right" placeholderString="0" bezelStyle="round" id="dOv-sx-W3f">
@@ -1023,6 +1056,9 @@
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                             </textFieldCell>
+                                                            <connections>
+                                                                <action selector="flavorOneDidChange:" target="XfG-lQ-9wD" id="mNU-8e-LSh"/>
+                                                            </connections>
                                                         </textField>
                                                     </subviews>
                                                 </view>
