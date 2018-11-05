@@ -866,7 +866,7 @@
                                                         <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qF7-d4-7uP">
                                                             <rect key="frame" x="110" y="26" width="80" height="65"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                            <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="NSTrashFull" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="iQG-Hm-0J2">
+                                                            <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="NSTrashFull" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" sound="Purr" inset="2" id="iQG-Hm-0J2">
                                                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                 <font key="font" metaFont="system"/>
                                                             </buttonCell>
@@ -877,11 +877,14 @@
                                                         <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z8a-U8-FcL">
                                                             <rect key="frame" x="12" y="448" width="116" height="22"/>
                                                             <autoresizingMask key="autoresizingMask"/>
-                                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="Flavor" placeholderString="Flavor 1" bezelStyle="round" id="zry-rA-x1U">
+                                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" placeholderString="Flavor 1" bezelStyle="round" id="zry-rA-x1U">
                                                                 <font key="font" usesAppearanceFont="YES"/>
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                             </textFieldCell>
+                                                            <connections>
+                                                                <action selector="flavorOneDidChange:" target="XfG-lQ-9wD" id="xlW-Ym-UfV"/>
+                                                            </connections>
                                                         </textField>
                                                         <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ojf-si-Cbz">
                                                             <rect key="frame" x="12" y="397" width="116" height="22"/>
@@ -918,6 +921,9 @@
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                             </textFieldCell>
+                                                            <connections>
+                                                                <action selector="flavorOneDidChange:" target="XfG-lQ-9wD" id="RZE-wz-zSx"/>
+                                                            </connections>
                                                         </textField>
                                                         <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rr3-Bj-5IZ">
                                                             <rect key="frame" x="146" y="397" width="39" height="22"/>
@@ -1688,7 +1694,7 @@
                         <outlet property="batchAmmount" destination="d2F-7g-WGG" id="0IB-HM-CrJ"/>
                         <outlet property="flavorFive" destination="gaV-4e-5tM" id="Iga-4n-cmd"/>
                         <outlet property="flavorFour" destination="VSX-Cf-xvJ" id="Ijy-3Y-lDE"/>
-                        <outlet property="flavorOne" destination="z8a-U8-FcL" id="fEf-BC-T07"/>
+                        <outlet property="flavorOne" destination="z8a-U8-FcL" id="NTx-mq-d0E"/>
                         <outlet property="flavorPercentageFive" destination="tIF-bi-O5Y" id="uYD-vW-2Su"/>
                         <outlet property="flavorPercentageFour" destination="r0k-Aw-2xl" id="Ba2-Ss-2m9"/>
                         <outlet property="flavorPercentageSeven" destination="dyw-Xt-m4N" id="iwT-h1-0ao"/>
@@ -1752,6 +1758,7 @@
         <image name="NSSlideshowTemplate" width="17" height="14"/>
         <image name="NSTrashFull" width="128" height="128"/>
         <sound name="Pop"/>
+        <sound name="Purr"/>
         <sound name="Tink"/>
     </resources>
 </document>

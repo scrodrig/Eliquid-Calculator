@@ -13,7 +13,6 @@ class ViewController: NSViewController {
     @IBOutlet weak var targetVg: NSTextField!
     @IBOutlet weak var targetPg: NSTextField!
     
-    
     @IBOutlet weak var flavorOne: NSTextField!
     @IBOutlet weak var flavorTwo: NSTextField!
     @IBOutlet weak var flavorThree: NSTextField!
@@ -75,6 +74,18 @@ class ViewController: NSViewController {
     @IBOutlet weak var sumPercentageFlavored: NSTextField!
     
     
+    @IBAction func flavorOneDidChange(_ sender: Any) {
+        
+        if(flavorOne.stringValue != "" && flavorPrecentageOne.stringValue != ""){
+            print("textField: \(flavorOne.stringValue)")
+            print("percentage: \(flavorPrecentageOne.floatValue)")
+            flavorTwo.isEnabled = true
+            flavorPercentageTwo.isEnabled = true
+            flavorPgContentrationTwo.isEnabled = true
+        }
+    }
+    
+    
     @IBAction func calculate(_ sender: Any) {
     }
     
@@ -83,6 +94,8 @@ class ViewController: NSViewController {
     
     @IBAction func clearFlavors(_ sender: Any) {
     }
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -99,7 +112,6 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
-
 
 }
 
