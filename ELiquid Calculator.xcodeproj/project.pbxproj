@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31004DA6218FBAFF0004101A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31004DA5218FBAFF0004101A /* AppDelegate.swift */; };
+		31004DA8218FBAFF0004101A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31004DA7218FBAFF0004101A /* ViewController.swift */; };
+		31004DAA218FBB000004101A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31004DA9218FBB000004101A /* Assets.xcassets */; };
+		31004DAD218FBB000004101A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31004DAB218FBB000004101A /* Main.storyboard */; };
+		31004DB9218FBB010004101A /* ELiquid_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31004DB8218FBB010004101A /* ELiquid_CalculatorTests.swift */; };
+		31004DC4218FBB010004101A /* ELiquid_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31004DC3218FBB010004101A /* ELiquid_CalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31004DB5218FBB010004101A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31004D9A218FBAFF0004101A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31004DA1218FBAFF0004101A;
+			remoteInfo = "ELiquid Calculator";
+		};
+		31004DC0218FBB010004101A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31004D9A218FBAFF0004101A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31004DA1218FBAFF0004101A;
+			remoteInfo = "ELiquid Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31004DA2218FBAFF0004101A /* ELiquid Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ELiquid Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31004DA5218FBAFF0004101A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31004DA7218FBAFF0004101A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31004DA9218FBB000004101A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31004DAC218FBB000004101A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31004DAE218FBB000004101A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31004DAF218FBB000004101A /* ELiquid_Calculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ELiquid_Calculator.entitlements; sourceTree = "<group>"; };
+		31004DB4218FBB010004101A /* ELiquid CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ELiquid CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31004DB8218FBB010004101A /* ELiquid_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELiquid_CalculatorTests.swift; sourceTree = "<group>"; };
+		31004DBA218FBB010004101A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31004DBF218FBB010004101A /* ELiquid CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ELiquid CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31004DC3218FBB010004101A /* ELiquid_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELiquid_CalculatorUITests.swift; sourceTree = "<group>"; };
+		31004DC5218FBB010004101A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31004D9F218FBAFF0004101A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31004DB1218FBB010004101A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31004DBC218FBB010004101A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31004D99218FBAFF0004101A = {
+			isa = PBXGroup;
+			children = (
+				31004DA4218FBAFF0004101A /* ELiquid Calculator */,
+				31004DB7218FBB010004101A /* ELiquid CalculatorTests */,
+				31004DC2218FBB010004101A /* ELiquid CalculatorUITests */,
+				31004DA3218FBAFF0004101A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31004DA3218FBAFF0004101A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31004DA2218FBAFF0004101A /* ELiquid Calculator.app */,
+				31004DB4218FBB010004101A /* ELiquid CalculatorTests.xctest */,
+				31004DBF218FBB010004101A /* ELiquid CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31004DA4218FBAFF0004101A /* ELiquid Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				31004DA5218FBAFF0004101A /* AppDelegate.swift */,
+				31004DA7218FBAFF0004101A /* ViewController.swift */,
+				31004DA9218FBB000004101A /* Assets.xcassets */,
+				31004DAB218FBB000004101A /* Main.storyboard */,
+				31004DAE218FBB000004101A /* Info.plist */,
+				31004DAF218FBB000004101A /* ELiquid_Calculator.entitlements */,
+			);
+			path = "ELiquid Calculator";
+			sourceTree = "<group>";
+		};
+		31004DB7218FBB010004101A /* ELiquid CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				31004DB8218FBB010004101A /* ELiquid_CalculatorTests.swift */,
+				31004DBA218FBB010004101A /* Info.plist */,
+			);
+			path = "ELiquid CalculatorTests";
+			sourceTree = "<group>";
+		};
+		31004DC2218FBB010004101A /* ELiquid CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31004DC3218FBB010004101A /* ELiquid_CalculatorUITests.swift */,
+				31004DC5218FBB010004101A /* Info.plist */,
+			);
+			path = "ELiquid CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31004DA1218FBAFF0004101A /* ELiquid Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31004DC8218FBB010004101A /* Build configuration list for PBXNativeTarget "ELiquid Calculator" */;
+			buildPhases = (
+				31004D9E218FBAFF0004101A /* Sources */,
+				31004D9F218FBAFF0004101A /* Frameworks */,
+				31004DA0218FBAFF0004101A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ELiquid Calculator";
+			productName = "ELiquid Calculator";
+			productReference = 31004DA2218FBAFF0004101A /* ELiquid Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31004DB3218FBB010004101A /* ELiquid CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31004DCB218FBB010004101A /* Build configuration list for PBXNativeTarget "ELiquid CalculatorTests" */;
+			buildPhases = (
+				31004DB0218FBB010004101A /* Sources */,
+				31004DB1218FBB010004101A /* Frameworks */,
+				31004DB2218FBB010004101A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31004DB6218FBB010004101A /* PBXTargetDependency */,
+			);
+			name = "ELiquid CalculatorTests";
+			productName = "ELiquid CalculatorTests";
+			productReference = 31004DB4218FBB010004101A /* ELiquid CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31004DBE218FBB010004101A /* ELiquid CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31004DCE218FBB010004101A /* Build configuration list for PBXNativeTarget "ELiquid CalculatorUITests" */;
+			buildPhases = (
+				31004DBB218FBB010004101A /* Sources */,
+				31004DBC218FBB010004101A /* Frameworks */,
+				31004DBD218FBB010004101A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31004DC1218FBB010004101A /* PBXTargetDependency */,
+			);
+			name = "ELiquid CalculatorUITests";
+			productName = "ELiquid CalculatorUITests";
+			productReference = 31004DBF218FBB010004101A /* ELiquid CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31004D9A218FBAFF0004101A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Schubert Rodriguez";
+				TargetAttributes = {
+					31004DA1218FBAFF0004101A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					31004DB3218FBB010004101A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 31004DA1218FBAFF0004101A;
+					};
+					31004DBE218FBB010004101A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 31004DA1218FBAFF0004101A;
+					};
+				};
+			};
+			buildConfigurationList = 31004D9D218FBAFF0004101A /* Build configuration list for PBXProject "ELiquid Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31004D99218FBAFF0004101A;
+			productRefGroup = 31004DA3218FBAFF0004101A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31004DA1218FBAFF0004101A /* ELiquid Calculator */,
+				31004DB3218FBB010004101A /* ELiquid CalculatorTests */,
+				31004DBE218FBB010004101A /* ELiquid CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31004DA0218FBAFF0004101A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31004DAA218FBB000004101A /* Assets.xcassets in Resources */,
+				31004DAD218FBB000004101A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31004DB2218FBB010004101A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31004DBD218FBB010004101A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31004D9E218FBAFF0004101A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31004DA8218FBAFF0004101A /* ViewController.swift in Sources */,
+				31004DA6218FBAFF0004101A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31004DB0218FBB010004101A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31004DB9218FBB010004101A /* ELiquid_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31004DBB218FBB010004101A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31004DC4218FBB010004101A /* ELiquid_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31004DB6218FBB010004101A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31004DA1218FBAFF0004101A /* ELiquid Calculator */;
+			targetProxy = 31004DB5218FBB010004101A /* PBXContainerItemProxy */;
+		};
+		31004DC1218FBB010004101A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31004DA1218FBAFF0004101A /* ELiquid Calculator */;
+			targetProxy = 31004DC0218FBB010004101A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31004DAB218FBB000004101A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31004DAC218FBB000004101A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31004DC6218FBB010004101A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31004DC7218FBB010004101A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		31004DC9218FBB010004101A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ELiquid Calculator/ELiquid_Calculator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T26366CZ44;
+				INFOPLIST_FILE = "ELiquid Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "scrodrig.personal.ELiquid-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		31004DCA218FBB010004101A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ELiquid Calculator/ELiquid_Calculator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T26366CZ44;
+				INFOPLIST_FILE = "ELiquid Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "scrodrig.personal.ELiquid-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		31004DCC218FBB010004101A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 48U83YG7VH;
+				INFOPLIST_FILE = "ELiquid CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "scrodrig.personal.ELiquid-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ELiquid Calculator.app/Contents/MacOS/ELiquid Calculator";
+			};
+			name = Debug;
+		};
+		31004DCD218FBB010004101A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 48U83YG7VH;
+				INFOPLIST_FILE = "ELiquid CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "scrodrig.personal.ELiquid-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ELiquid Calculator.app/Contents/MacOS/ELiquid Calculator";
+			};
+			name = Release;
+		};
+		31004DCF218FBB010004101A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 48U83YG7VH;
+				INFOPLIST_FILE = "ELiquid CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "scrodrig.personal.ELiquid-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "ELiquid Calculator";
+			};
+			name = Debug;
+		};
+		31004DD0218FBB010004101A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 48U83YG7VH;
+				INFOPLIST_FILE = "ELiquid CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "scrodrig.personal.ELiquid-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "ELiquid Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31004D9D218FBAFF0004101A /* Build configuration list for PBXProject "ELiquid Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31004DC6218FBB010004101A /* Debug */,
+				31004DC7218FBB010004101A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31004DC8218FBB010004101A /* Build configuration list for PBXNativeTarget "ELiquid Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31004DC9218FBB010004101A /* Debug */,
+				31004DCA218FBB010004101A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31004DCB218FBB010004101A /* Build configuration list for PBXNativeTarget "ELiquid CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31004DCC218FBB010004101A /* Debug */,
+				31004DCD218FBB010004101A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31004DCE218FBB010004101A /* Build configuration list for PBXNativeTarget "ELiquid CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31004DCF218FBB010004101A /* Debug */,
+				31004DD0218FBB010004101A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31004D9A218FBAFF0004101A /* Project object */;
+}
